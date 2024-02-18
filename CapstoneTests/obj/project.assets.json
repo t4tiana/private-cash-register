@@ -5823,11 +5823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\CapstoneTests\\CapstoneTests.csproj",
+      "projectUniqueName": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\private-cash-register\\CapstoneTests\\CapstoneTests.csproj",
       "projectName": "CapstoneTests",
-      "projectPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\CapstoneTests\\CapstoneTests.csproj",
+      "projectPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\private-cash-register\\CapstoneTests\\CapstoneTests.csproj",
       "packagesPath": "C:\\Users\\tiana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\CapstoneTests\\obj\\",
+      "outputPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\private-cash-register\\CapstoneTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5844,8 +5844,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\Capstone\\Capstone.csproj": {
-              "projectPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\Capstone\\Capstone.csproj"
+            "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\private-cash-register\\Capstone\\Capstone.csproj": {
+              "projectPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\private-cash-register\\Capstone\\Capstone.csproj"
             }
           }
         }

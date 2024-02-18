@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uv6k0fZNbLntfpkn0/5lrOCVXYT2OQ4lxH2WV7AhxsVd3/o6jcC+HEMygA9dHh1/1lA6lEH6DL8SQ6C58FaQWQ==",
+  "dgSpecHash": "nLd01RHw+UMZvz/oAz7LE4lTArHNAAD58dwe8qQ2L9Pz9ie/AvaR3pvnvSQTTRxbsBVzacHgA084gEYosdbarw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\CapstoneTests\\CapstoneTests.csproj",
+  "projectFilePath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\private-cash-register\\CapstoneTests\\CapstoneTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiana\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
     "C:\\Users\\tiana\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

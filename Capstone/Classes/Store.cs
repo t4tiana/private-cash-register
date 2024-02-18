@@ -13,9 +13,11 @@ namespace Capstone.Classes
 
         ShoppingCart cart = new ShoppingCart();
 
+        private FileAccess fileAccess;
+
         public Store()
         {
-            FileAccess fileAccess = new FileAccess();
+            fileAccess = new FileAccess();
             inventoryList = fileAccess.ReadInventory();
         }
         public string AddToBalance(string money)
@@ -24,6 +26,8 @@ namespace Capstone.Classes
             if (message == "Balance added successfully")
             {
                 CustomerBalance += int.Parse(money);
+                decimal deposit = decimal.Parse(money);
+                fileAccess.WriteDepositToLog(deposit, CustomerBalance);
                 return "Success";
             }
             else
@@ -96,7 +100,6 @@ namespace Capstone.Classes
                         }
                     }
                 }
-
             }
             catch (FormatException)
             {
@@ -142,6 +145,7 @@ namespace Capstone.Classes
                 CustomerBalance -= subTotal;
                 inventoryList[i].Quantity -= intQuantity;
                 AddToCart(inventoryList[i], int.Parse(quantity));
+                fileAccess.WritePurchaseToLog(inventoryList[i], int.Parse(quantity), CustomerBalance);
                 return "Success";
             }
             else
@@ -170,6 +174,8 @@ namespace Capstone.Classes
 
         public List<int> CalculateChange(decimal change)
         {
+            fileAccess.WriteChangeGivenToLog(change, 0.00M);
+
             int intChange = (int)(change * 100);
 
             List<int> denominations = new List<int> { 2000, 1000, 500, 100, 25, 10, 5 };

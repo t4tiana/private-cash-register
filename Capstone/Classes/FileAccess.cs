@@ -7,6 +7,8 @@ namespace Capstone.Classes
 {
     public class FileAccess
     {
+        public DateTime DateAndTime { get; } = DateTime.Now;
+
         string fileName = @"C:\Users\tiana\Software\inventory.csv";
         public List<Candy> ReadInventory()
         {
@@ -32,6 +34,56 @@ namespace Capstone.Classes
             }
             return result;
         }
-        //write to log
+        public void WritePurchaseToLog(Candy candy, int quantity, decimal balance)
+        {
+            try
+            {
+                //has append set to true so that transactions are not overwritten
+                using (StreamWriter sw = new StreamWriter(@"C:\Users\tiana\Software\cash-register-c-sharp\audit.txt", true ))
+                {
+                    string message = $"{quantity} {candy.Name} {candy.Id}";
+                    decimal subtotal = candy.Price * quantity;
+                    string line = $"{DateAndTime} {message} ${subtotal} ${balance}";
+                    sw.WriteLine(line);
+                }
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine("An error occurred" + ex.Message);
+            }
+        }
+
+        public void WriteDepositToLog(decimal amount, decimal balance)
+        {
+            try
+            {
+                using (StreamWriter sw = new StreamWriter(@"C:\Users\tiana\Software\cash-register-c-sharp\audit.txt", true))
+                {
+                    string message = "MONEY RECEIVED: ";
+                    string line = $"{DateAndTime} {message} ${amount} ${balance}";
+                    sw.WriteLine(line);
+                }
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine("An error occurred" + ex.Message);
+            }
+        }
+        public void WriteChangeGivenToLog(decimal change, decimal balance)
+        {
+            try
+            {
+                using (StreamWriter sw = new StreamWriter(@"C:\Users\tiana\Software\cash-register-c-sharp\audit.txt", true))
+                {
+                    string message = "CHANGE GIVEN: ";
+                    string line = $"{DateAndTime} {message} ${change} ${balance}";
+                    sw.WriteLine(line);
+                }
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine("An error occurred" + ex.Message);
+            }
+        }
     }
 }

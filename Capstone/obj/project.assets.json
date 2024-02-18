@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\Capstone\\Capstone.csproj",
+      "projectUniqueName": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\private-cash-register\\Capstone\\Capstone.csproj",
       "projectName": "Capstone",
-      "projectPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\Capstone\\Capstone.csproj",
+      "projectPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\private-cash-register\\Capstone\\Capstone.csproj",
       "packagesPath": "C:\\Users\\tiana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\Capstone\\obj\\",
+      "outputPath": "C:\\Users\\tiana\\Software\\cash-register-c-sharp\\cash-register\\private-cash-register\\Capstone\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
