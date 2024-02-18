@@ -1,0 +1,14 @@
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\bin\Debug\netcoreapp3.1\Capstone.exe
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\bin\Debug\netcoreapp3.1\Capstone.deps.json
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\bin\Debug\netcoreapp3.1\Capstone.runtimeconfig.json
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\bin\Debug\netcoreapp3.1\Capstone.runtimeconfig.dev.json
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\bin\Debug\netcoreapp3.1\Capstone.dll
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\bin\Debug\netcoreapp3.1\Capstone.pdb
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\obj\Debug\netcoreapp3.1\Capstone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\obj\Debug\netcoreapp3.1\Capstone.AssemblyInfoInputs.cache
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\obj\Debug\netcoreapp3.1\Capstone.AssemblyInfo.cs
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\obj\Debug\netcoreapp3.1\Capstone.csproj.CoreCompileInputs.cache
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\obj\Debug\netcoreapp3.1\Capstone.sourcelink.json
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\obj\Debug\netcoreapp3.1\Capstone.dll
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\obj\Debug\netcoreapp3.1\Capstone.pdb
+C:\Users\tiana\Software\cash-register-c-sharp\cash-register\Capstone\obj\Debug\netcoreapp3.1\Capstone.genruntimeconfig.cache
